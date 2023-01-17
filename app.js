@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const port = 3000
 const nunjucks = require('nunjucks');
-const indexRouter = require('./routes/index');
+const indexRouter = require('./routes/user'); // test
 
 app.use(express.static('public'))
 
