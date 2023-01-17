@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon -e njk app.js"
+    "start": "nodemon -e njk,js app.js & npm run scss",
+    "scss": "sass --watch scss:public/css"
   },
   "keywords": [],
   "author": "",

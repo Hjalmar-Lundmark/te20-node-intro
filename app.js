@@ -33,9 +33,11 @@ nunjucks.configure('views', {
     express: app,
 });
 
+/*
 app.get('/', async function (req, res, next) {
     res.render('index.njk', {
         message: 'Hello world!',
         title: 'Nunjucks hello world',
     });
 });
+*/
